@@ -1,0 +1,51 @@
+// Bootstrap overrides for this template
+a {
+  color: #DC953A;
+  &:focus,
+  &:hover,
+  &:active {
+    color: darken(#DC953A, 10%);
+  }
+}
+
+.btn {
+  border-width: 2px;
+}
+
+.bg-primary {
+  background-color: #DC953A !important;
+}
+
+.bg-secondary {
+  background-color: $white !important;
+}
+
+.text-primary {
+  color: #DC953A !important;
+}
+
+.text-secondary {
+  color: $secondary !important;
+}
+
+.btn-primary {
+  background-color: #DC953A;
+  border-color: #DC953A;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken(#DC953A, 10%);
+    border-color: darken(#DC953A, 10%);
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($secondary, 10%);
+    border-color: darken($secondary, 10%);
+  }
+}
