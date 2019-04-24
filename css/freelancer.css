@@ -107,7 +107,6 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
 }
 
 #mainNav .navbar-brand {
@@ -120,7 +119,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #DC953A;
+  color: #652D2B;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -132,7 +131,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #DC953A;
+  color: #652D2B;
 }
 
 #mainNav .navbar-toggler {
@@ -157,11 +156,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #DC953A;
+    background: #652D2B;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #DC953A;
+    background: #652D2B;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;

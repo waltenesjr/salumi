@@ -56,7 +56,7 @@
                                     "<input type=\"hidden\" name=\"item_valor\" value=\"" + this.valor + "\" />\n" +
                                     "<input type=\"hidden\" name=\"frete\" value=\"0\" />\n" +
                                     "<input type=\"hidden\" name=\"peso\" value=\"0\" />\n" +
-                                    "<input type=\"image\" name=\"submit\" src=\"https://dabuttonfactory.com/button.png?t=comprar&f=Ubuntu-Bold&ts=25&tc=fff&w=200&h=50&c=round&bgt=gradient&bgc=dc953a&ebgc=f7c98e\" alt=\"Pague com PagSeguro - é rápido, grátis e seguro!\" />\n" +
+                                    "<input type=\"image\" name=\"submit\" src=\"https://dabuttonfactory.com/button.png?t=COMPRAR&f=Calibri-Bold&ts=24&tc=fff&w=200&h=50&c=0&bgt=gradient&bgc=652d2b&ebgc=b2807e\" alt=\"Pague com PagSeguro - é rápido, grátis e seguro!\" />\n" +
                                 "</form>" +
                             "</div>" +
                         "</div>" +
@@ -86,7 +86,7 @@
                         "<input type=\"hidden\" name=\"item_valor\" value=\"" + this.valor + "\" />\n" +
                         "<input type=\"hidden\" name=\"frete\" value=\"0\" />\n" +
                         "<input type=\"hidden\" name=\"peso\" value=\"0\" />\n" +
-                        "<input type=\"image\" name=\"submit\" src=\"https://dabuttonfactory.com/button.png?t=comprar&f=Ubuntu-Bold&ts=25&tc=fff&w=200&h=50&c=round&bgt=gradient&bgc=dc953a&ebgc=f7c98e\" alt=\"Pague com PagSeguro - é rápido, grátis e seguro!\" />\n" +
+                        "<input type=\"image\" name=\"submit\" src=\"https://dabuttonfactory.com/button.png?t=COMPRAR&f=Calibri-Bold&ts=24&tc=fff&w=200&h=50&c=0&bgt=gradient&bgc=652d2b&ebgc=b2807e\" alt=\"Pague com PagSeguro - é rápido, grátis e seguro!\" />\n" +
                     "</form>" +
                 "</a>" +
             "</div>"
