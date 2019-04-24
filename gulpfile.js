@@ -89,14 +89,14 @@ function css() {
     }))
     .pipe(header(banner, {
       pkg: pkg
-    }))
-    .pipe(gulp.dest("./css"))
+    }));
+    /*.pipe(gulp.dest("./css"))
     .pipe(rename({
       suffix: ".min"
     }))
     .pipe(cleanCSS())
     .pipe(gulp.dest("./css"))
-    .pipe(browsersync.stream());
+    .pipe(browsersync.stream());*/
 }
 
 // JS task

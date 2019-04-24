@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE html>/* public static String ipProfileRequest(String ipRequest){
+        return isAmbienteDesenvolvimento() ? "127.0.0.1" : ipRequest;
+    }
+*/
 <html lang="en">
 
 <head>
@@ -9,8 +12,14 @@
 
   <title>Salumi Alimentos</title>
 
+  <link rel="icon" type="image/x-icon" href="/img/logo.png">
+  <link type="image/png" rel="icon" href="/img/logo.png"/>
+  <link rel="shortcut" href="/img/logo.png">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/jquery.fileupload.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -23,7 +32,7 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
+  <link href="css/freelancer.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -44,10 +53,7 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Produtos</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Empresa</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contato</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Institucional</a>
           </li>
         </ul>
       </div>
@@ -92,7 +98,7 @@
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- Institucional -->
   <section class="bg-primary text-white mb-0" id="about">
     <div class="container">
       <h2 class="text-center text-uppercase text-white">Empresa</h2>
@@ -105,62 +111,13 @@
           <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
         </div>
       </div>
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="#">
-          <i class="fas fa-download mr-2"></i>
-          Download Now!
-        </a>
-      </div>
+      <div class="text-center mt-4"></div>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- localização Section -->
   <section id="contact">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Contato</h2>
-      <hr class="star-dark mb-5">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Nome" required="required" data-validation-required-message="Por favor preencher seu nome.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Por favor preencher seu email.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Telefone" required="required" data-validation-required-message="Por favor preencher seu telefone.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Mensagem" required="required" data-validation-required-message="Por favor preencher a mensagem."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Enviar</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
+    <iframe width="100%" height="460" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EjFSdWEgQy0xMTUgLSBKYXJkaW0gQW1lcmljYSwgR29pw6JuaWEgLSBHTywgQnJhemlsIi4qLAoUChIJf9f38sn2XpMRG_gs4-bVYUESFAoSCQHWYbHS9l6TEYds_P1NgbKQ&key=AIzaSyBMdht6G6du7hkI01EaFR2--clHEzjEwAg" allowfullscreen></iframe>
   </section>
 
   <!-- Footer -->
@@ -169,8 +126,8 @@
       <div class="row">
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Endereço</h4>
-          <p class="lead mb-0">Avenida São Paulo
-            <br>Goiânia, GO 74892564</p>
+          <p class="lead mb-0">Rua C-185, Qd. 608, lt. 11, c-02
+            <br>Nova Suíça, Goiânia, Goiás. CEP: 74.280-110</p>
         </div>
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Redes Sociais</h4>
@@ -203,9 +160,14 @@
           </ul>
         </div>
         <div class="col-md-4">
-          <h4 class="text-uppercase mb-4">Salume Alimentos</h4>
-          <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          <h4 class="text-uppercase mb-4">Trabalhe conosco</h4>
+          <span class="btn btn-secondary btn-lg rounded-pill fileinput-button" style="cursor: pointer;">
+            <i class="glyphicon glyphicon-plus"></i>
+            <span>Enviar Currículo</span>
+            <input id="fileupload"  type="file" name="FilesPic">
+          </span>
+          <br>
+          <a id="msg" style="color: green; font-weight: bold"></a>
         </div>
       </div>
     </div>
@@ -226,13 +188,13 @@
 
   <!-- Portfolio Modals -->
   <div id="modais">
-
   </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/produto.js"></script>
+  <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -245,8 +207,11 @@
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
 
+  <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+
   <script src="vendor/swiper/js/swiper.min.js"></script>
   <script>
+    /* configurações do slide de imagens */
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 30,
       centeredSlides: true,
@@ -263,8 +228,31 @@
         prevEl: '.swiper-button-prev',
       },
     });
+
+    /* mascara do dinheiro nos campos de valor */
+    $('.dinheiro').mask('#.##0,00', {reverse: true});
   </script>
 
+  <script src="js/jquery.ui.widget.js" type="text/javascript"></script>
+  <script src="js/jquery.iframe-transport.js" type="text/javascript"></script>
+  <script src="js/jquery.fileupload.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    function Reset(){
+      $('#msg').text('');
+    }
+    $(function () {
+      $('#fileupload').fileupload({
+        dataType: 'json',
+        done: function (e, data) {
+          window.setTimeout('Reset()', 2000);
+        },
+        progressall: function (e, data) {
+
+          $('#msg').text('Currículo enviado com sucesso!');
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
