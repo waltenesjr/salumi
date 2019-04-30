@@ -119,7 +119,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #652D2B;
+  color: #fff;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -131,7 +131,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #652D2B;
+  color: #fff;
 }
 
 #mainNav .navbar-toggler {

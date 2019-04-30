@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Salumi Alimentos | Temperos, Molhos, Linha sal, Condimentos e Kit churrasco">
   <meta name="author" content="Salumi.com.br">
@@ -33,42 +33,54 @@
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+  <div class="fixed-top">
+    <div style="width: 100%;" class="bg-secondary">
+      <div class="container bg-secondary">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <img src="img/logo-min.png" alt="">
-      </a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">Institucional</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Temperos</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Molhos</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Linha sal</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Condimentos</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Kit churrasco</a>
-          </li>
-        </ul>
+        </a>
+        <a class="navbar-brand js-scroll-trigger float-right" style="margin-top: 10px; color: #652D2B;">
+          <img src="img/entrega.png" alt="">
+          <label style="margin-right: 5px;">Entrega Segura</label>
+          <img src="img/atendimento.png" alt="">
+          <label>SAC 3000-0000</label>
+        </a>
       </div>
     </div>
-  </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-primary text-uppercase" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">Institucional</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Temperos</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Molhos</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Linha sal</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Condimentos</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Kit churrasco</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 
   <!-- Header -->
-  <div class="swiper-container" style="padding-top: 90px;">
+  <div class="swiper-container fixed-top">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
@@ -118,7 +130,15 @@
           <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
         </div>
       </div>
-      <div class="text-center mt-4"></div>
+      <div class="text-center mt-4">
+        <span class="btn btn-secondary btn-lg rounded-pill fileinput-button" style="cursor: pointer;border-style: solid; border-width: 1px; border-color: white;">
+            <i class="glyphicon glyphicon-plus"></i>
+            <span>Trabalhe conosco</span>
+            <input id="fileupload"  type="file" name="FilesPic">
+          </span>
+        <br>
+        <a id="msg" style="color: green; font-weight: bold"></a>
+      </div>
     </div>
   </section>
 
@@ -157,14 +177,7 @@
           </ul>
         </div>
         <div class="col-md-4">
-          <h4 class="text-uppercase mb-4">Trabalhe conosco</h4>
-          <span class="btn btn-secondary btn-lg rounded-pill fileinput-button" style="cursor: pointer;">
-            <i class="glyphicon glyphicon-plus"></i>
-            <span>Enviar Currículo</span>
-            <input id="fileupload"  type="file" name="FilesPic">
-          </span>
-          <br>
-          <a id="msg" style="color: green; font-weight: bold"></a>
+
         </div>
       </div>
     </div>
