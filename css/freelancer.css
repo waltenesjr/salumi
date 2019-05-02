@@ -77,6 +77,45 @@ section h2 {
   }
 }
 
+label {
+  color: #652D2B;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 2px solid #652D2B;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #DC953A;
+}
+
+.searchTerm:focus{
+  color: #652D2B;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #652D2B;
+  background: #652D2B;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.section-seg {
+  padding: 25px;
+}
+
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
@@ -137,6 +176,11 @@ section h2 {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+}
+
+.img-seguranca {
+  width: 250px;
+  height: 96px;
 }
 
 @media (min-width: 992px) {
