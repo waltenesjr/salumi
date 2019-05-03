@@ -112,6 +112,10 @@ label {
   font-size: 20px;
 }
 
+.swiper-container {
+  margin-top: 145px;
+}
+
 .section-seg {
   padding: 25px;
 }
@@ -143,9 +147,8 @@ label {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   font-weight: 700;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
 }
 
 #mainNav .navbar-brand {
@@ -153,7 +156,6 @@ label {
 }
 
 #mainNav .navbar-nav {
-  margin-top: 1rem;
   letter-spacing: 0.0625rem;
 }
 
@@ -185,8 +187,6 @@ label {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
@@ -205,10 +205,6 @@ label {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
     background: #652D2B;
-  }
-  #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
