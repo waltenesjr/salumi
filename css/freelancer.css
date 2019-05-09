@@ -131,6 +131,8 @@ label {
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  background: #320009;
+  height: 50px;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -290,6 +292,16 @@ header.masthead h2 {
 
   #buscaHiden {
     display: block;
+    text-align: center;
+  }
+
+  .swiper-container {
+    margin-top: 170px;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    height: 250px;
   }
 }
 
@@ -426,4 +438,5 @@ a:focus, a:hover, a:active {
 
 .form-control {
   border: 1px solid #320009;
+  border-radius: 0px;
 }
