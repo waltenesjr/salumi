@@ -275,6 +275,10 @@ header.masthead h2 {
   }
 }
 
+#buscaHiden {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .img-menu {
     display: none;
@@ -282,6 +286,10 @@ header.masthead h2 {
 
   .container-menu {
     text-align: center;
+  }
+
+  #buscaHiden {
+    display: block;
   }
 }
 
