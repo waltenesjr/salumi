@@ -3,13 +3,13 @@
 
 <head>
   <script src="vendor/jquery/jquery.min.js"></script>
- <!-- <script>
+  <script>
     $(document).ready(function() {
       if (location.href.indexOf("https://") == -1) {
         location.href = location.href.replace("http://", "https://");
       }
     });
-  </script>-->
+  </script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Salumi Alimentos | Temperos, Molhos, Linha sal, Condimentos e Kit churrasco">
@@ -45,15 +45,14 @@
     <div style="width: 100%;" class="bg-secondary">
       <div class="container bg-secondary">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <img src="img/logo-r.png" alt="">
+          <img src="img/logo.png" alt="" width="200" height="186">
         </a>
-        <a class="navbar-brand js-scroll-trigger float-right" style="margin-top: 10px; color: #652D2B;">
-          <div class="search">
-            <input type="text" class="searchTerm" placeholder="Buscar">
-            <button type="submit" class="searchButton">
-              <i class="fa fa-search"></i>
-            </button>
-          </div>
+        <a class="navbar-brand js-scroll-trigger float-right" style="margin-top: 10px;">
+          <img src="img/icon-cartao.png" style="margin-right: 15px;">
+          <img src="img/icon-caminhao.png" style="margin-right: 15px;">
+          <img src="img/icon-secretaria.png" style="margin-right: 15px;">
+          <img src="img/icon-ssl.png"><br><br>
+          <input type="text" class="form-control" id="busca" aria-describedby="emailHelp" placeholder="Buscar">
         </a>
       </div>
     </div>
@@ -69,19 +68,19 @@
               <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">Institucional</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Temperos</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#tempero">Temperos</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Molhos</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#molho">Molhos</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Linha sal</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#linhaSal">Linha sal</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Condimentos</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#condimento">Condimentos</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Kit churrasco</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#churrasco">Kit churrasco</a>
             </li>
           </ul>
         </div>
@@ -117,14 +116,54 @@
   </div>
 
   <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio">
+  <section class="tempero" id="tempero">
     <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Produtos</h2>
+      <h2 class="text-center text-uppercase text-secondary mb-0">Temperos</h2>
       <hr class="star-dark mb-5">
-      <div class="row" id="produtos">
+      <div class="row" id="temperos">
 
       </div>
     </div>
+  </section>
+
+  <section class="molho" id="molho">
+      <div class="container">
+          <h2 class="text-center text-uppercase text-secondary mb-0">Molhos</h2>
+          <hr class="star-dark mb-5">
+          <div class="row" id="molhos">
+
+          </div>
+      </div>
+  </section>
+
+  <section class="linhaSal" id="linhaSal">
+      <div class="container">
+          <h2 class="text-center text-uppercase text-secondary mb-0">Linha Sal</h2>
+          <hr class="star-dark mb-5">
+          <div class="row" id="produtos">
+
+          </div>
+      </div>
+  </section>
+
+  <section class="condimento" id="condimento">
+      <div class="container">
+          <h2 class="text-center text-uppercase text-secondary mb-0">Condimento</h2>
+          <hr class="star-dark mb-5">
+          <div class="row" id="condimentos">
+
+          </div>
+      </div>
+  </section>
+
+  <section class="chorrasco" id="churrasco">
+      <div class="container">
+          <h2 class="text-center text-uppercase text-secondary mb-0">Kit Churrasco</h2>
+          <hr class="star-dark mb-5">
+          <div class="row" id="churrascos">
+
+          </div>
+      </div>
   </section>
 
   <!-- Institucional -->
@@ -154,7 +193,7 @@
 
   <!-- localização Section -->
   <section id="contact">
-    <iframe width="100%" height="460" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EjFSdWEgQy0xMTUgLSBKYXJkaW0gQW1lcmljYSwgR29pw6JuaWEgLSBHTywgQnJhemlsIi4qLAoUChIJf9f38sn2XpMRG_gs4-bVYUESFAoSCQHWYbHS9l6TEYds_P1NgbKQ&key=AIzaSyBMdht6G6du7hkI01EaFR2--clHEzjEwAg" allowfullscreen></iframe>
+    <iframe width="100%" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EjFSdWEgQy0xMTUgLSBKYXJkaW0gQW1lcmljYSwgR29pw6JuaWEgLSBHTywgQnJhemlsIi4qLAoUChIJf9f38sn2XpMRG_gs4-bVYUESFAoSCQHWYbHS9l6TEYds_P1NgbKQ&key=AIzaSyBMdht6G6du7hkI01EaFR2--clHEzjEwAg" allowfullscreen></iframe>
   </section>
 
   <!-- Footer -->
@@ -238,8 +277,6 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
-
-  <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
 
   <script src="vendor/swiper/js/swiper.min.js"></script>
   <script>

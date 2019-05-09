@@ -65,13 +65,8 @@
             "</div>"
         );
         $("#produtos").append(
-            "<div class=\"col-md-6 col-lg-4 text-center\" style=\"padding-bottom: 20px;\">" +
+            "<div class=\"col-md-6 col-lg-4 text-center div-item\">" +
                 "<a class=\"portfolio-item d-block mx-auto\" href=\"#" + idModal + "\">" +
-                    "<div class=\"portfolio-item-caption d-flex position-absolute h-100 w-100\">" +
-                        "<div class=\"portfolio-item-caption-content my-auto w-100 text-center text-white\">" +
-                            "<i class=\"fas fa-search-plus fa-3x\"></i>" +
-                        "</div>" +
-                    "</div>" +
                     "<img class=\"img-fluid\" src=\"" + this.imagem + "\" alt=\"\">" +
                     "<a class='text-produto-25'>R$ </a><a class=\"dinheiro text-produto-25\" >" + this.valor + "</a><br>" +
                     "<a style=\"color: #652D2B;font-weight: 700;font-family: 'Montserrat';\">" + this.titulo + "</a>" +

@@ -49,20 +49,20 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #652D2B;
+  background-color: #320009;
 }
 
 hr.star-dark {
-  border-color: #652D2B;
+  border-color: #320009;
 }
 
 hr.star-dark:after {
-  color: #652D2B;
+  color: #320009;
   background-color: white;
 }
 
 section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 
 section h2 {
@@ -78,46 +78,15 @@ section h2 {
 }
 
 label {
-  color: #652D2B;
-}
-
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
-
-.searchTerm {
-  width: 100%;
-  border: 2px solid #652D2B;
-  border-right: none;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #DC953A;
-}
-
-.searchTerm:focus{
-  color: #652D2B;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid #652D2B;
-  background: #652D2B;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
+  color: #320009;
 }
 
 .swiper-container {
-  margin-top: 145px;
+  margin-top: 240px;
 }
 
 .section-seg {
-  padding: 25px;
+  padding: 5px;
 }
 
 .btn-xl {
@@ -149,6 +118,7 @@ label {
 #mainNav {
   font-weight: 700;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  height: 50px;
 }
 
 #mainNav .navbar-brand {
@@ -173,6 +143,15 @@ label {
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #fff;
+}
+
+.div-item:hover {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  z-index: 999;
+}
+
+.div-item {
+  padding-bottom: 20px;
 }
 
 #mainNav .navbar-toggler {
@@ -200,11 +179,11 @@ label {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #652D2B;
+    background: #320009;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #652D2B;
+    background: #320009;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -342,7 +321,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #652D2B;
+  color: #320009;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -350,14 +329,14 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #652D2B;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #320009;
   color: #fff;
 }
 
 .copyright {
-  background-color: #411d1c;
+  background-color: #000000;
 }
 
 a {
@@ -373,7 +352,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #652D2B !important;
+  background-color: #320009 !important;
 }
 
 .bg-secondary {
@@ -385,7 +364,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #652D2B !important;
+  color: #320009 !important;
 }
 
 .btn-primary {
@@ -399,29 +378,34 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary {
-  background-color: #652D2B;
-  border-color: #652D2B;
+  background-color: #320009;
+  border-color: #320009;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #652D2B;
-  border-color: #652D2B;
+  background-color: #320009;
+  border-color: #320009;
 }
 
 .text-produto-25 {
   font-size: 25px;
-  color: #652D2B !important;
+  color: #320009 !important;
   font-weight: 700;
   font-family: 'Montserrat';
 }
 
 .text-produto-15 {
   font-size: 15px;
-  color: #652D2B !important;
+  color: #320009 !important;
   font-weight: 700;
   font-family: 'Montserrat';
 }
 
 #contact {
   padding: 0px !important;
+  background-color: #320009;
+}
+
+.form-control {
+  border: 1px solid #320009;
 }
