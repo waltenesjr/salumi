@@ -3,13 +3,13 @@
 
 <head>
   <script src="vendor/jquery/jquery.min.js"></script>
-  <script>
+ <!-- <script>
     $(document).ready(function() {
       if (location.href.indexOf("https://") == -1) {
         location.href = location.href.replace("http://", "https://");
       }
     });
-  </script>
+  </script>-->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -88,16 +88,15 @@
 
   <div class="fixed-top">
     <div style="width: 100%;" class="bg-secondary">
-      <div class="container bg-secondary">
+      <div class="container bg-secondary container-menu">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <img src="img/logo.png" alt="" width="200" height="186">
         </a>
-        <a class="navbar-brand js-scroll-trigger float-right" style="margin-top: 10px;">
-          <img src="img/icon-cartao.png" style="margin-right: 15px;">
-          <img src="img/icon-caminhao.png" style="margin-right: 15px;">
-          <img src="img/icon-secretaria.png" style="margin-right: 15px;">
-          <img src="img/icon-ssl.png"><br><br>
-          <input type="text" class="form-control" id="busca" aria-describedby="emailHelp" placeholder="Buscar">
+        <a class="navbar-brand js-scroll-trigger float-right img-menu" style="margin-top: 50px;">
+          <img src="img/cartao.png" style="margin-right: 100px;">
+          <img src="img/caminhao.png" style="margin-right: 100px;  ">
+          <img src="img/secretaria.png"><br>
+          <input type="text" class="form-control" id="busca" aria-describedby="emailHelp" placeholder="Buscar" style="margin-top: 5px;">
         </a>
       </div>
     </div>
@@ -321,7 +320,7 @@
   <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+  <script src="js/freelancer.js"></script>
 
   <script src="vendor/swiper/js/swiper.min.js"></script>
   <script>

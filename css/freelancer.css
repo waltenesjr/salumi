@@ -275,6 +275,16 @@ header.masthead h2 {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .img-menu {
+    display: none;
+  }
+
+  .container-menu {
+    text-align: center;
+  }
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
