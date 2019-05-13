@@ -358,6 +358,10 @@ form .row:first-child .floating-label-form-group {
   padding: 5px;
 }
 
+.mb-4, .my-4 {
+  margin-bottom: 5px!important;
+}
+
 .img-menu {
   margin: 10px;
   width: 150px;
