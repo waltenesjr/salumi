@@ -18,6 +18,12 @@
   // Scroll to top button appear
   $(document).scroll(function() {
     $('.scroll-to-top').fadeIn();
+    var scrollDistance = $(this).scrollTop();
+    if (scrollDistance > 150) {
+      $("#mainNav").addClass("fixed-top");
+    } else {
+      $("#mainNav").removeClass("fixed-top");
+    }
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
