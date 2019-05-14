@@ -70,13 +70,6 @@ section h2 {
   line-height: 2rem;
 }
 
-@media (min-width: 992px) {
-  section h2 {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
-}
-
 label {
   color: #320009;
 }
@@ -87,6 +80,14 @@ a {
 
 a:focus, a:hover, a:active {
   color: #c17b22;
+}
+
+div.mb-5 p {
+  color: #c17b22;
+}
+
+div.mb-5 a {
+  color: #c17b22 !important;
 }
 
 header.masthead {
@@ -280,8 +281,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: #320009;
   color: #fff;
 }
@@ -292,6 +293,7 @@ form .row:first-child .floating-label-form-group {
 
 .btn {
   border-width: 2px;
+  border: none !important;
 }
 
 .bg-primary {
@@ -360,6 +362,7 @@ form .row:first-child .floating-label-form-group {
 
 .mb-4, .my-4 {
   margin-bottom: 5px!important;
+  font-size: 18px;
 }
 
 .img-menu {
@@ -431,5 +434,12 @@ form .row:first-child .floating-label-form-group {
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  section h2 {
+    font-size: 3rem;
+    line-height: 2.5rem;
   }
 }
