@@ -46,16 +46,19 @@
                                 "<a class='text-produto-25'>R$ </a><a class=\"dinheiro text-produto-25\" >" + this.valor + "</a><br>" +
                                 "<p class=\"mb-5 text-produto-15\"><strong>" + this.descricao + "</strong></p>" +
                                 "<br><br>" +
-                                "<form target=\"pagseguro\" method=\"post\" action=\"https://sandbox.pagseguro.uol.com.br/checkout/checkout.jhtml\">\n" +
-                                    "<input type=\"hidden\" name=\"email_cobranca\" value=\"suporte@lojamodelo.com.br\" />\n" +
+                                "<form target=\"pagseguro\" method=\"post\" action=\"https://pagseguro.uol.com.br/checkout/checkout.jhtml\">\n" +
+                                    "<input type=\"hidden\" name=\"email_cobranca\" value=\"financeiro@salumialimentos.com.br\" />\n" +
                                     "<input type=\"hidden\" name=\"tipo\" value=\"CBR\" />\n" +
                                     "<input type=\"hidden\" name=\"moeda\" value=\"BRL\" />\n" +
+                                    "<input type=\"hidden\" name=\"encoding\" value=\"UTF-8\" />\n" +
+
                                     "<input type=\"hidden\" name=\"item_id\" value=\"" + cont + "\" />\n" +
                                     "<input type=\"hidden\" name=\"item_descr\" value=\"" + this.titulo + "\" />\n" +
                                     "<input type=\"hidden\" name=\"item_quant\" value=\"1\" />\n" +
                                     "<input type=\"hidden\" name=\"item_valor\" value=\"" + this.valor + "\" />\n" +
                                     "<input type=\"hidden\" name=\"frete\" value=\"0\" />\n" +
                                     "<input type=\"hidden\" name=\"peso\" value=\"0\" />\n" +
+
                                     "<input type=\"image\" name=\"submit\" src=\"https://dabuttonfactory.com/button.png?t=COMPRAR&f=Calibri-Bold&ts=24&tc=fff&w=200&h=50&c=0&bgt=unicolored&bgc=652d2b\" alt=\"Pague com PagSeguro - é rápido, grátis e seguro!\" />\n" +
                                 "</form>" +
                             "</div>" +
@@ -71,16 +74,19 @@
                     "<a class='text-produto-25'>R$ </a><a class=\"dinheiro text-produto-25\" >" + this.valor + "</a><br>" +
                     "<a style=\"color: #652D2B;font-weight: 700;font-family: 'Montserrat';\">" + this.titulo + "</a>" +
                     "<br><br>" +
-                    "<form target=\"pagseguro\" method=\"post\" action=\"https://sandbox.pagseguro.uol.com.br/checkout/checkout.jhtml\">\n" +
-                        "<input type=\"hidden\" name=\"email_cobranca\" value=\"suporte@lojamodelo.com.br\" />\n" +
+                    "<form target=\"pagseguro\" method=\"post\" action=\"https://pagseguro.uol.com.br/checkout/checkout.jhtml\">\n" +
+                        "<input type=\"hidden\" name=\"email_cobranca\" value=\"financeiro@salumialimentos.com.br\" />\n" +
                         "<input type=\"hidden\" name=\"tipo\" value=\"CBR\" />\n" +
                         "<input type=\"hidden\" name=\"moeda\" value=\"BRL\" />\n" +
+                        "<input type=\"hidden\" name=\"encoding\" value=\"UTF-8\" />\n" +
+
                         "<input type=\"hidden\" name=\"item_id\" value=\"" + cont + "\" />\n" +
                         "<input type=\"hidden\" name=\"item_descr\" value=\"" + this.titulo + "\" />\n" +
                         "<input type=\"hidden\" name=\"item_quant\" value=\"1\" />\n" +
                         "<input type=\"hidden\" name=\"item_valor\" value=\"" + this.valor + "\" />\n" +
                         "<input type=\"hidden\" name=\"frete\" value=\"0\" />\n" +
                         "<input type=\"hidden\" name=\"peso\" value=\"0\" />\n" +
+
                         "<input type=\"image\" name=\"submit\" src=\"https://dabuttonfactory.com/button.png?t=COMPRAR&f=Calibri-Bold&ts=24&tc=fff&w=200&h=50&c=0&bgt=unicolored&bgc=652d2b\" alt=\"Pague com PagSeguro - é rápido, grátis e seguro!\" />\n" +
                     "</form>" +
                 "</a>" +

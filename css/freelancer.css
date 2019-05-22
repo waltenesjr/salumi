@@ -115,7 +115,6 @@ form .row:first-child .floating-label-form-group {
 }
 
 .btn-social {
-  width: 3.25rem;
   height: 3.25rem;
   font-size: 1.25rem;
   line-height: 2rem;
@@ -362,7 +361,7 @@ form .row:first-child .floating-label-form-group {
 
 .mb-4, .my-4 {
   margin-bottom: 5px!important;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .img-menu {
