@@ -46,7 +46,7 @@
                                 "<a class='text-produto-25'>R$ </a><a class=\"dinheiro text-produto-25\" >" + this.valor + "</a><br>" +
                                 "<p class=\"mb-5 text-produto-15\"><strong>" + this.descricao + "</strong></p>" +
                                 "<br><br>" +
-                                "<form target=\"pagseguro\" method=\"post\" action=\"https://pagseguro.uol.com.br/checkout/checkout.jhtml\">\n" +
+                                "<form method=\"post\" action=\"https://pagseguro.uol.com.br/checkout/checkout.jhtml\">\n" +
                                     "<input type=\"hidden\" name=\"email_cobranca\" value=\"financeiro@salumialimentos.com.br\" />\n" +
                                     "<input type=\"hidden\" name=\"tipo\" value=\"CBR\" />\n" +
                                     "<input type=\"hidden\" name=\"moeda\" value=\"BRL\" />\n" +
@@ -74,7 +74,7 @@
                     "<a class='text-produto-25'>R$ </a><a class=\"dinheiro text-produto-25\" >" + this.valor + "</a><br>" +
                     "<a style=\"color: #652D2B;font-weight: 700;font-family: 'Montserrat';\">" + this.titulo + "</a>" +
                     "<br><br>" +
-                    "<form target=\"pagseguro\" method=\"post\" action=\"https://pagseguro.uol.com.br/checkout/checkout.jhtml\">\n" +
+                    "<form method=\"post\" action=\"https://pagseguro.uol.com.br/checkout/checkout.jhtml\">\n" +
                         "<input type=\"hidden\" name=\"email_cobranca\" value=\"financeiro@salumialimentos.com.br\" />\n" +
                         "<input type=\"hidden\" name=\"tipo\" value=\"CBR\" />\n" +
                         "<input type=\"hidden\" name=\"moeda\" value=\"BRL\" />\n" +
