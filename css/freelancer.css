@@ -76,6 +76,7 @@ label {
 
 a {
   color: #DC953A;
+  font-size: 15px;
 }
 
 a:focus, a:hover, a:active {
@@ -371,6 +372,12 @@ form .row:first-child .floating-label-form-group {
   text-align: center;
 }
 
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
 @media screen and (max-width: 600px) {
   .img-menu {
     margin: 10px;
@@ -440,5 +447,11 @@ form .row:first-child .floating-label-form-group {
   section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
+  }
+}
+
+@media (width: 1024px) {
+  a {
+    font-size: 10px;
   }
 }
